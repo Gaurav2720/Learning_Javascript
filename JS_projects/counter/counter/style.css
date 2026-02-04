@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    height: 60vh; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;     
+    font-family: Arial, sans-serif;
+}
+
+#countlabel {
+    font-size: 10em;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#btncon {
+    display: flex;
+    gap: 30px; 
+}
+
+.button {
+    font-size: 20px;
+    padding: 8px 16px;
+    cursor: pointer;
+    text-decoration:dotted;
+    color: red;
+    background-color: black;
+    cursor:crosshair;
+    transition: 0.25ms;
+    
+}
+.button:hover{
+    background-color: aqua;
+}
+.interval{
+    text-align: center;
+}
